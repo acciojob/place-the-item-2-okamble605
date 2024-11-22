@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+/* Flexbox container styling */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next row if space runs out */
+  justify-content: center; /* Centers the items in the row */
+  align-items: center; /* Centers the items vertically */
+  gap: 10px; /* Optional: Adds spacing between items */
+}
+
+/* Flexbox item styling (optional for visualization) */
+.item {
+  padding: 10px 20px;
+  background-color: #b2ebf2;
+  color: #006064;
+  border: 1px solid #00838f;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
